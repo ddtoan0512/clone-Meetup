@@ -1,0 +1,33 @@
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+.logo img {
+    width: 123px;
+}
+
+.bar ul {
+    list-style: none;
+}
+
+.bar li{
+    font-size: 15px;
+    display: inline;
+    padding: 5px 15px;
+}
+.bar a {
+    text-decoration: none;
+    color: #adadad;
+}
+.hasBorder {
+    border-right: 1px solid #ddd;
+    height: auto;
+}
+
+.special {
+    font-weight: 700;
+    color: #29B1D0 !important;
+
+}
