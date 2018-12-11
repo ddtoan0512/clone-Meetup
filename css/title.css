@@ -1,0 +1,36 @@
+.title {
+    padding: 0;
+    display: flex;
+    flex-flow: column;
+    height: 460px;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    color: #FFF;
+}
+
+.title h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.title p{
+    font-weight: 600;
+}
+.title a {
+    height: 50px;
+    width: 284px;
+    background-color: #f03f5d;
+    text-decoration: none;
+    color: #FFF;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.title a:hover{
+    background-color: #eb2143;
+}
