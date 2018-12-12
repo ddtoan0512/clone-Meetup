@@ -1,0 +1,138 @@
+#event {
+    width: 1060px;
+    padding: 20px;
+    margin: 0 auto; 
+}
+
+.event-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.event-item {
+    width: 330px;
+    box-shadow: .2px 2px 12px rgba(0, 0, 0, .2);   
+}
+.event-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.event-title h2 {
+    color: #2e3e48;
+}
+
+.event-title a {
+    font-weight: 600;
+    color: rgb(0, 162, 199);
+    text-decoration: none;
+}
+
+.event-title a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+ .event-img {
+    border-radius: 8px 8px 0 0;
+    background-image: url('https://secure.meetupstatic.com/photo_api/event/rx1100x800/dt7700c8xff7900/sgdf8cd8a18f/464556631.jpeg');
+    width: 100%;
+    height: 175px;
+    background-size: cover;
+    background-position: 50%;
+    position: relative;
+}
+
+.event-img .event-time {
+    position: absolute;
+    border-radius: 10px;
+    height: 36px;
+    width: 36px;
+    background-color: #FFF;
+    padding: 8px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.event-time .date {
+    color: #f13a59;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.event-time .month {
+    color: rgba(46,62,72,.6);
+    font-weight: 500;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.overlay1 {
+    background-color: #ee3939;
+}
+
+.overlay2 {
+    background-color: #eeff00;
+}
+
+.overlay3 {
+    background-color: #002fff;
+}
+
+.event-text .location{
+    padding: 0 20px 16px;
+    margin-bottom: 0;
+}
+
+.location p {
+    margin: 0;
+    padding-top: 16px;
+    color: #666;
+}
+
+.location h2 {
+    padding: 0;
+    margin-top: 16px;
+    margin-bottom: 0;
+    color: #2e3e48;
+    font-size: 20px;
+}
+
+.host-info{
+    padding: 10px 24px 16px 20px;
+    display: flex;
+    align-items: center;
+}
+.host-info p {
+    font-size: 15px;
+    color: #999;
+}
+.host-info a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;  
+}
+
+.host-info .avatar {
+    background: url('../img/avatar.jpg');
+    background-size: cover;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
