@@ -1,0 +1,29 @@
+#category {
+    padding: 80px 10%;
+    margin: 0 auto;
+}
+
+.category-container{
+    display: flex;
+    justify-content: space-between;
+}
+#category h2 {
+    color: #2e3e48;
+    font-weight: 600;
+}
+
+.category-item {
+    padding: 0 16px 16px 0;
+}
+.category-item .category-img {
+    width: 253px;
+    height: 160px;
+    background-image: url('https://secure.meetupstatic.com/photos/event/4/8/3/f/600_450858495.jpeg');
+    background-size: cover;
+    border-radius: 8px;
+}
+
+.category-container {
+    display: flex;
+    flex-flow: row wrap;
+}
